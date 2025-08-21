@@ -1,5 +1,3 @@
-# B2B_Project_3-square
-
 # B2B Marketplace Platform
 
 This project is a business-to-business (B2B) marketplace where registered companies can buy and sell products. This document outlines the database structure, core features, and critical dependencies of the platform.
@@ -92,3 +90,11 @@ The features of this platform have key dependencies within the database. This me
 *   **An Order cannot be placed without a Buyer and a Seller:** The `orders` table requires both a `buyer_company_id` and a `seller_company_id`. A transaction cannot exist without two registered companies involved.
 *   **An Order is meaningless without Order Items:** The `orders` table only holds general information. The `order_items` table is required to know *what* was actually bought and in *what quantity*. An order cannot be completed without at least one item in it.
 *   **Price and Buying functionality depends on User Authentication:** The core feature of hiding prices and allowing purchases is dependent on a user being logged in. If a user isn't registered and logged in, they cannot be linked to a company and therefore cannot buy or sell.
+
+---
+
+## Database Schema Diagram
+
+The following diagram shows the relationships between all the tables in the database.
+
+![Database Schema Diagram](./assets/db_schema.png)
