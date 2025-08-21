@@ -93,8 +93,12 @@ The features of this platform have key dependencies within the database. This me
 
 ---
 
-## Database Schema Diagram
+## Database Schema Diagrams
 
-The following diagram shows the relationships between all the tables in the database.
+The following diagrams show the relationships between all the tables in the database.
 
-![Database Schema Diagram](./assets/db_schema.png)
+### Diagram 1
+![Database Schema Diagram v1](./assets/db_schema_v1.png)
+
+### Diagram 2
+![Database Schema Diagram v2](./assets/db_schema_v2.png)
