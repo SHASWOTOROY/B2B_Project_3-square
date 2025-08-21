@@ -6,7 +6,7 @@ This project is a business-to-business (B2B) marketplace where registered compan
 
 The database is the backbone of this application, designed to manage companies, users, products, and transactions in an organized way.
 
-[**Click here to see a visualization of the database schema.**](https://dbdiagram.io/d/68a633e6466887cb45e5cf75)
+[**Click here to see a live, interactive visualization of the database schema.**](https://dbdiagram.io/d/68a633e6466887cb45e5cf75)
 
 ---
 
